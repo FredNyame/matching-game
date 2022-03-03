@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Press+Start+2P&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --platinum: #F5F5F5; 
+    --davys-grey: #5C5C5C;
+    --dark-gray: #242526;
+    --davys-grey-lighter: #d6d3d3;
+    --white: #FFFFFF;
+    --blue-green-color-wheel: #065143;
+    --amaranth-red: #DA1B2B;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+html, body {
+    height: 100%;
+    margin: 0px;
+    height: 0px;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+body {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+    line-height: 1.5;
+    background-color: var(--platinum);
+    font-family: 'Lato', sans-serif;
+}
+
+#app {
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+    max-width: 494px;
+    margin: 0px auto 0px auto;
+    padding: 4rem 1rem;
+}
